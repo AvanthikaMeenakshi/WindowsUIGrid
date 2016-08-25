@@ -1,0 +1,342 @@
+body{
+	background-color: #180153;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+html{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.windows-block{
+	width: 260px;
+    height: 130px;
+    color: #FFF;
+    padding: 15px;
+    margin-bottom: 7.5px;
+    margin-right: 7.5px;
+	.head{
+		display: block;
+		font-size: 17px;
+	}
+	.desc{
+		display: block;
+		font-size: 12px;
+	}
+}
+
+.Footer{
+	display: flex;
+	margin-top: 25px;
+	font-size: 13px;
+	color: #FFF;
+	.Footer-Icon{
+		flex:1;
+	}
+	.fi{
+		font-size: 18px;
+	}
+}
+
+.fi2{
+	font-size: 30px;
+    line-height: 30px;
+    margin-top: -35px;
+}
+
+.small-footer{
+	display: flex;
+	font-size: 12px;
+	color: #FFF;
+	.Footer-Icon{
+		flex:1;
+	}
+	.fi{
+		font-size: 18px;
+	}
+}
+
+.f1{
+	flex: 1;
+}
+
+.Calendar{
+	font-size: 55px;
+    display: inline-block;
+    line-height: 45px;
+}
+
+.Day{
+	flex-basis: 100%;
+	text-align: right;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.icon{
+	text-align: center;
+	i{
+		font-size: 35px;
+		line-height: 35px;
+	}
+}
+
+.small-blocks{
+	width: 135px;
+	height: 130px;
+}
+
+.windows-sb{
+	width: 60px;
+    height: 61px;
+    color: #FFF;
+    padding: 15px;
+    margin-bottom: 7.5px;
+    margin-right: 7.5px;
+}
+
+.imgFill{
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img1{
+	background-image: url("http://www.photopixels.com/portraits/images/Headshot%20White%20Background.jpg");
+    display: inline-block;
+    width: 115px;
+    height: 130px;
+    margin-top: -15px;
+    margin-left: -15px;
+    border: 2px solid #FFF;
+}
+
+.bg2{
+	background-image: url("http://www.behindthespin.com/wp-content/uploads/2009/10/sarahcallender.jpg");
+    display: inline-block;
+    width: 89px;
+    height: 65px;
+    border: 2px solid #FFF;
+}
+
+.bg3{
+	background-image: url("http://www.fotorelax.com/forum/index.php?action=dlattach;topic=15023.0;attach=218159;image");
+    display: inline-block;
+    width: 89px;
+    height: 65px;
+    border: 2px solid #FFF;
+}
+
+.bg4{
+	background-image: url("http://lucapollasto.altervista.org/wp-content/uploads/2015/03/male-actor-johnny-depp-johnny-depp-photography-black-and-white-portrait-face-mono.jpg");
+    display: inline-block;
+    width: 89px;
+    height: 65px;
+    border: 2px solid #FFF;
+}
+
+.bg5{
+	background-image: url("http://data.whicdn.com/images/21437323/original.jpg");
+    display: inline-block;
+    width: 89px;
+    height: 65px;
+    border: 2px solid #FFF;
+}
+
+.aqua{
+	background-color: #018fa5;
+}
+
+.yello{
+	background-color: #F3B200;
+}
+
+.purple{
+	background-color: #5838a7;
+}
+
+.green{
+	background-color: #008a00;
+}
+
+.pink{
+	background-color: #b31c51;
+}
+
+.orange{
+	background-color: #cf552e;
+}
+
+.blue{
+	background-color: #0057c1;
+}
+
+.baqua{
+	background-color: #00bdf4;
+}
+
+.mt50{
+	margin-top: 50px;
+}
+
+.Image-Flex{
+	display: flex;
+}
+
+.Flex-Images{
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: -15px;
+    margin-right: -90px;
+}
+
+.block1{
+
+}
+
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-icon{
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+    	font-size: 60px;
+    }
+}
+
+.windows-lb{
+	width: 126.5px;
+    height: 130px;
+    color: #FFF;
+    padding: 15px;
+    margin-bottom: 7.5px;
+    margin-right: 7.5px;
+}
+
+.desktop-img{
+	background-image: url("https://static.pexels.com/photos/91147/pexels-photo-91147.jpeg");
+	height: 130px;
+    width: 260px;
+    display: inline-block;
+    margin: -15px;
+}
+
+.mtn20{
+	margin-top: -20px;
+}
+
+.weather-img{
+	background-image: url("https://static.pexels.com/photos/36487/above-adventure-aerial-air.jpg");
+	height: 267.5px;
+    width: 260px;
+    display: inline-block;
+    margin: -15px;
+}
+
+.windows-medium-block{
+	height: 267.5px;
+	width: 260px;
+    color: #FFF;
+    padding: 15px;
+    margin-bottom: 7.5px;
+    margin-right: 7.5px;
+    position: relative;
+}
+
+.weather-forecast{
+	position: absolute;
+	top: 10px;
+	.Degree{
+		display: block;
+	    font-size: 70px;
+	    line-height: 70px;
+	    margin-left: -5px;
+	}
+	.f18{
+		display: block;
+		font-size: 15px;
+	}
+	.f13{
+		display: block;
+		font-size: 12px;
+	}
+}
+
+.mt10{
+	margin-top: 10px;
+}
+
+.photos{
+	display: inline-block;
+    background-image: url("https://static.pexels.com/photos/39667/children-win-success-video-game-39667.jpeg");
+    width: 126.5px;
+    height: 130px;
+    margin: -15px;
+}
+
+.f50{
+	i{
+		font-size: 50px;
+		line-height: 90px;
+	}
+}
+
+.partition{
+	margin-left: 30px;
+}
+
+.windows-wrapper{
+	margin: 30px;
+}
+
+.mt7{
+	margin-top: 7.5px;
+}
+
+.bgpolor{
+	display: inline-block;
+    background-image: url("https://static.pexels.com/photos/65289/polar-bear-bear-teddy-sleep-65289.jpeg");
+    width: 260px;
+    height: 85px;
+    margin: -15px;
+}
+
+.image-footer{
+	background-color: #b31c51;
+    height: 54.5px;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    color: #FFF;
+    margin: 0px -15px;
+    padding: 0px 15px;
+    .Footer-Icon{
+    	margin-top: 10px;
+    	display: flex;
+    	align-items: center;
+    	i{
+    		font-size: 25px;
+    		margin-right: 10px;
+    	}
+    }
+}
+
+.bgfood{
+	display: inline-block;
+    background-image: url("https://static.pexels.com/photos/62097/pexels-photo-62097.jpeg");
+    width: 260px;
+    height: 130px;
+    margin: -15px;
+}
+
+.bgtravel{
+	display: inline-block;
+    background-image: url("https://static.pexels.com/photos/25543/pexels-photo-25543.jpg");
+    width: 260px;
+    height: 130px;
+    margin: -15px;
+}
